@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    height: 65px;
+    align-items: flex-start;
+}
+body{
+    background-color: silver;
+}
+.phone{
+    text-align: center;
+}
+.bg-custom{
+    background-color: darkgrey;
+}
+.btn-outline-custom{
+    background-color: darkgrey;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+
+    > *{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+}
+.container-fluid.navbar-container,
+.navbar-brand {
+  padding-left: 0;
+}
+
+.dish-meta{
+    font-size: 10pt;
+}
+
+.card-img{
+    height: 60rem;
+}
+.aboutustxt{
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 15pt;
+    font-style: italic;
+}
+.card-title{
+    font-size: 20pt;
+}
+.dish-title{
+    color: red;
+}
+.menu-title{
+    color: #fffdd0;
+}
+
+.dish-content{
+    border: 2px solid black;
+    border-top: none;
+    border-left: silver;
+    border-bottom: silver;
+
+}
+
+.ekko-lightbox-nav-overlay a {
+    color: lightgrey;
+}
+.gallery-title {
+    text-align: center;
+	font-weight: 500;
+	border-bottom: 1px dotted orange;
+	margin-top: 1em;
+}
+.btn-custom{
+    background-color: darkgrey;
+}
+.btn-custom:hover{
+    background-color: red;
+}
+.card-title {
+    text-align: center;
+    font-size: 45pt;
+    text-decoration: underline;
+}
+.jumbotron {
+   background: url("../images/jumbo2.jpeg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+}
+
+.card-img-top{
+    height: auto;
+}
+.card-deck{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+#cardlink{
+    padding-top: 2rem;
+}
+.card{
+    background-color: #fffdd0;
+}
